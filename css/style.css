@@ -40,7 +40,7 @@ p  {
 
 
 .wrapper {
-	width: 80%;
+	width: 75%;
 	margin: 0 auto;
 	background: white;
 	padding: 0 45px 20px;
@@ -49,23 +49,47 @@ p  {
 .small {
 	font-size: 0.8em;
 	text-align: center;
+	color: rgb(111,127,122)
 }
-
 
 header a {
 	color: rgb(152,173,166);
 	text-decoration: none;
 }
 
+header a:hover {
+	color: rgb(111,127,122);
+}
+
 #featured img {
-	width: 100%
+	width: 95%;
+	align-self: center;
+	border: 20px rgb(111,127,122) solid;
+}
+
+#featured a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+#featured a:hover {
+	color: rgb(111,127,122);
+}
+
+#press {
+	margin-bottom: 20px;
+	align-items: center;
 }
 
 #press img {
 	border: 5px #ccc solid;
 	padding: 1px;
-	width: 25%;
+	width: 230px;
 	
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
 }
 
 
